@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "name": "Greek Salad ",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "$12.99",
+      "img": "imgFood1",
+      "cats": "cat1, cat2, cat3",
+      "tags": "tag1, tag2, tag3"
+    },
+    {
+      "id": "2",
+      "name": "Brushetta",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "$7.99",
+      "img": "imgFood2",
+      "cats": "cat1, cat4, cat5",
+      "tags": "tag1, tag2, tag3"
+    },
+    {
+      "id": "3",
+      "name": "Grilled fish",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "$15.99",
+      "img": "imgFood3",
+      "cats": "cat1, cat2, cat6",
+      "tags": "tag1, tag2, tag4"
+    },
+    {
+      "id": "4",
+      "name": "Mexican Fijolitos",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "$22.99",
+      "img": "imgFood1",
+      "cats": "cat1, cat3, cat5",
+      "tags": "tag1, tag3, tag4"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+html, body, #root, .App, .profileCmp, .bookingCmp{
+    height: 100vh;
+}
+.App {
+    color:#333;
+    .titulos{
+        background-color: #495e57;
+        padding: 20px 10px;
+
+        h1{
+            margin-bottom: 4px;;
+            color:#f4ce15;
+            font-family: "Libre Baskerville", system-ui;
+            font-weight: 700;
+            font-style: normal;
+        }
+        h2{
+            color:#f1f1f1;
+            font-family: "Libre Baskerville", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+}
+button.reserve, a.reserve{
+    background-color: #f4ce15;
+    border-radius: 16px;
+    border:0;
+    color:#333;
+    font-weight: bold;
+    padding: 8px 18px;
+}
+button.reserve:hover, a.reserve:hover{
+    background-color: #f4ce15;
+    color:#333;
+    text-decoration: underline;
+    padding: 8px 18px;
+    box-shadow: 0px 1px 10px 4px #333;
+}
+.myNavbar{
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler:focus{}
+}
+
+.homeCmp{
+    .bannerHome{
+        background-color: #495e57;
+        color:#f1f1f1;
+        border: 0;
+        margin-top: -1px;
+        padding: 10px 10px 20px 10px;
+
+        p{
+            Overflow: hidden;
+            max-height: 7.3rem;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 5;
+            text-overflow: ellipsis;
+            display: block;
+        }
+        p::after{
+            content: 'X'; 
+            display: inline-block;
+        }
+    }
+    .catsHome{
+        padding: 20px 10px;
+        h3{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    }
+    .imgProduct{
+        display: block;
+        float: none;
+        margin: 0;
+        padding: 0;
+        height: 140px;
+        max-height: 200px;
+        width: 100%;
+        max-width: 400px;
+        border: 0;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .imgProduct.imgChef{
+        background-image: url(./images/chef.jpg);
+    }
+    .imgProduct.imgFood{
+        height: 100px;
+    }
+    .imgProduct#imgFood1{
+        background-image: url(./images/img1.jpg);
+    }
+    .imgProduct#imgFood2{
+        background-image: url(./images/img2.jpg);
+    }
+    .imgProduct#imgFood3{
+        background-image: url(./images/img3.jpg);
+    }
+    .imgProduct#imgFood4{
+        background-image: url(./images/img4.jpg);
+    }
+    .listCats{
+        padding: 0;
+        margin: 0;
+    }
+    .listCats li{
+        list-style: none;
+        display: inline-block;
+    }
+    .listCats li a,
+    .listCats li button{
+        color:#333;
+        background-color: #f1f1f1;
+        border: 0;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 6px 14px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .listCats li a:hover,
+    .listCats li button:hover{
+        text-decoration: underline;
+    }
+    .loadingMesage{
+        text-align: center;
+        font-size: 34px;
+        text-decoration: underline;
+    }
+    .list-group{
+        padding-left: calc(var(--bs-gutter-x)* 0.5);
+    }
+    .list-group-item{
+        border:none;
+        border-bottom: 1px solid #333;
+        padding:8px 0;
+        margin-bottom: 6px;
+
+        p{
+            Overflow: hidden;
+            max-height: 4.2rem;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            text-overflow: ellipsis;
+        }
+    }
+    .list-group-item:last-child{
+        border:none;
+    }
+}
+
+.profileCmp{
+    background-color: #495e57;
+
+    .titulos{
+        padding: 20px 0;
+    }
+
+    h3{
+        color:#fff;
+        margin-bottom: 20px;
+    }
+    .submitProfile{
+        width: 100%;
+        background-color: #f4ce15;
+        border: 0;
+        color: #333;
+        font-weight: bold;
+    }
+}
+
+.bookingCmp{
+    background-color: #495e57;
+
+    h3{
+        color:#fff;
+        margin-bottom: 20px;
+    }
+    label{
+        color:#fff;
+    }
+
+    .imgProduct{
+        display: block;
+        float: none;
+        margin: 0 0 20px 0;
+        padding: 0;
+        height: 140px;
+        max-height: 200px;
+        width: 100%;
+        max-width: 400px;
+        border: 0;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .imgProduct.imgChef1, .imgProduct.imgChef2{
+        background-image: url(./images/chef.jpg);
+        max-width: 100%;
+    }
+    .submitBooking{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .homeCmp{
+        /* background-color: red; */
+        .imgProduct{
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        button.reserve{
+            width: 100%;
+        }
+    }
+}
